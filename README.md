@@ -57,7 +57,7 @@ markdown to make the page look awesome.
 visible, change the `hidden: true` to `hidden: false` in the top of the file.
 
 - To make your article visible within a section, write the section name in the
-`section: ` line. For instance, to add an article to the "Switching to Linux"
+`section:` line. For instance, to add an article to the "Switching to Linux"
 section, the line should be `section: switching`.
 
 When you're all done, fill out the "Commit new file" form at the bottom with the
@@ -80,7 +80,7 @@ set `hidden: true` in an article, it will not be visible on any of the index
 pages, and you will need to know the direct URL to view it.
 
 If you want an article to **not** show up on the index page, but be visible
-on `/articles`, set `hidden: false` and remove the `section: ` line from the
+on `/articles`, set `hidden: false` and remove the `section:` line from the
 article.
 
 To get an article to show up under **Frequently Answered Questions**, set
@@ -104,6 +104,8 @@ https://support.system76.com/files/firmware/meer1-0358.bio.zip.
 When linking to files, please use the absolute path, i.e.
 `/files/firmware/meer1-0358.bio.zip`.
 
+<!-->
+
 ## Icons
 
 The Ubuntu logo can be included in a doc using the following HTML tag:
@@ -120,6 +122,7 @@ Pop!_OS (Super) key:
   <font-awesome-icon :icon="['fab', 'pop-os']"></font-awesome-icon>
 </kbd>
 ```
+-->
 
 ## Local Development
 
