@@ -70,7 +70,7 @@ This process lowers the sound quality of the stream when in HSP/HFP mode, so aud
 
 ## Bluetooth Troubleshooting
 
-Bluetooth issues can be troubleshooted in several ways.  The first thing to check is toggling airplane mode which will sometimes get Bluetooth functioning again.  Next, make sure Bluetooth is enabled in the top bar, or in the <u>Bluetooth</u> system settings.
+Bluetooth issues can be troubleshooted in several ways.  The first thing to check is toggling airplane mode which will sometimes get Bluetooth functioning again.  Next, make sure Bluetooth is enabled in the top bar, or in the <u>Bluetooth</u> system settings.  In Addition, sometimes your motherboard may not recognize your Bluetooth controller, especially if you notice Bluetooth suddenly missing after resuming from suspend or reboot.  To elimiate this as a possible issue, shut down your PC, disconnect the power, and hold the power button for 30 seconds to discharge the capacitors.  Then, reconnect connect the power, boot, and see if Bluetooth is active again.
 
 Then, try reinstalling Bluetooth related software with this command, depending on the verison of Pop!\_OS you're using.
 
